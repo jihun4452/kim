@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class MemberReposiroty {
+public class MemberRepository {
 
     @PersistenceContext
     private EntityManager em;

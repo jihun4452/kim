@@ -22,4 +22,7 @@ public class Member {
     @OneToMany(mappedBy = "member") //나는 맵핑된 거울일 뿐이다.
     private List<Order> orders = new ArrayList<>();
 
+    public void setAddress(String 서울, String 강가, String s) {
+
+    }
 }

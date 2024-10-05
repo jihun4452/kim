@@ -22,3 +22,8 @@ spring:
   sql:
     init:
       mode: always
+
+  spring:
+    thymeleaf:
+       prefix: classpath:/templates/
+       suffix: .html

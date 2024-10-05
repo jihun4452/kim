@@ -1,7 +1,7 @@
 package cotest.kim.service;
 
 import cotest.kim.domain.Member;
-import cotest.kim.repository.MemberReposiroty;
+import cotest.kim.repository.MemberRepository;
 import jakarta.persistence.EntityManager;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -18,7 +18,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MemberServiceTest {
     @Autowired MemberService memberService;
-    @Autowired MemberReposiroty memberRepository;
+    @Autowired
+    MemberRepository memberRepository;
     @Autowired EntityManager em;
     @Test
     public void 회원가입() throws Exception {
